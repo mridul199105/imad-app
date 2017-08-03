@@ -22,5 +22,10 @@ body {
 .text-medium {
     font-size: 60px;
 }
-
+.text-huge {
+	font-size:10px;
+}
+.italic {
+	font-weight: italic;
+}
 
