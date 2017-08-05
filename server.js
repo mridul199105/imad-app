@@ -16,7 +16,7 @@ var datastuff = {
                 <li> Contains Second Header</li>
             </ol>`
     },
-    'archive2': {
+    'archivetwo': {
         title: 'GUI Page 2',
         date: '10.08.2017',
         content: `
@@ -25,7 +25,7 @@ var datastuff = {
                 <li> Contains something something</li>
                 <li> Contains no Header</li>
             </ol>`},
-    'archive3': {
+    'archivethree': {
         title: 'GUI Page 3',
         date: '15.08.2017',
         content: `
