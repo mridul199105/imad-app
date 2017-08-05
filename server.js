@@ -30,11 +30,8 @@ function navappear() {
         return navi;
 }
 
-function naviclick() {
-    var clickbait = `<a href="javascript:void(0);" onclick="opennav()">Navigation</a>`;
-    return clickbait;
-}
 
+    
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
