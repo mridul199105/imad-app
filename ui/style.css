@@ -33,7 +33,7 @@ body {
 	left: 300;
 	width: 150;
 	height: 150;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 	background-color: white;
 }
@@ -42,7 +42,7 @@ body {
 	left: 450;
 	width: 800;
 	height: 125;
-	position: fixed;
+	position: absolute;
 	background-color: #120A8F;
 	Overflow-y: hidden;
 	padding-top: 30px;
@@ -53,9 +53,9 @@ body {
 	font-family: Sans-serif;
 }
 .contentmatter {
-    top: 300;
+    top: 150;
     left: 300;
-    width: 950;
+    width: 900;
     height:100%;
     z-index: 1;
     position: absolute;
