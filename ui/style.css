@@ -68,4 +68,8 @@ body {
     font-weight: normal;
     font-family: serif;
 }
-
+.bottomnav {
+    bottom: 0;
+    left: 300;
+    
+}
