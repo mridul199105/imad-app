@@ -101,8 +101,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:archiveone', function (req, res) {
-  res.send(createtemplate(datastuff.archiveone));
+app.get('/:archiveme', function (req, res) {
+  res.send(createtemplate(datastuff.archiveme));
 });
 
 app.get('/ui/style.css', function (req, res) {
