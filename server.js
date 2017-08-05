@@ -17,8 +17,24 @@ function closenav() {
 }
 
 function navappear() {
-    var navi = 
+    var navi = `
+        <div id="mysidenav" class="sidenav">
+        <a href="javascript:void(0);" class="closebtn" onclick="closenav()">&times;</a>
+        <img src="/ui/madi.png" align="center" width="150px" height="150px" />
+        <a href="/">Home</a>
+        <a href="/archive-1">Page 1</a>
+        <a href="/archive-2">Page 2</a>
+        <a href="/archive-3">Page 3</a>
+        <a href="/archive-4">Page 4</a>
+        </div>`;
+        return navi;
 }
+
+function naviclick() {
+    var clickbait = `<a href="javascript:void(0);" onclick="opennav()">Navigation</a>`;
+    return clickbait;
+}
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
