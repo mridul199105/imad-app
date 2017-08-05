@@ -58,6 +58,7 @@ body {
     width: 950;
     height:100%;
     z-index: 1;
+    position: absolute;
     background-color: white;
     padding-top:20px;
     padding-left: 125px;
