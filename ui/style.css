@@ -40,7 +40,7 @@ body {
 .banner {
 	top: 0;
 	left: 450;
-	width: 100%;
+	width: 1100;
 	height: 150;
 	position: fixed;
 	z-index:1;
@@ -48,7 +48,7 @@ body {
 	Overflow-y: hidden;
 	padding-top: 27px;
 	padding-left: 60px;
-	font-size: 80px;
+	font-size: 60px;
 	color: White;
 	font-weight: bold;
 	font-family: Sans-serif;
