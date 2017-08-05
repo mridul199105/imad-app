@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var datastuff = {
-    'archive1': {
+    'archiveone': {
         title: 'GUI Page 1',
         date: '05.08.2017',
         content: `
@@ -102,7 +102,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:archiveName', function (req, res) {
-  res.send(createtemplate(datastuff[archive1]));
+  res.send(createtemplate(datastuff[archiveone]));
 });
 
 app.get('/ui/style.css', function (req, res) {
