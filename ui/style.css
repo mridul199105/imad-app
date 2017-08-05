@@ -28,4 +28,29 @@ body {
 .italic {
 	font-weight: italic;
 }
+.toplogo {
+	top: 0;
+	left: 0;
+	width: 215;
+	height: 215;
+	position: fixed;
+	z-index: 1;
+	background-color: "White";
+}
+.banner {
+	top: 0;
+	left: 215;
+	width: 100%;
+	height: 215;
+	position: fixed;
+	z-index:1;
+	blackground-color: "Navy Blue";
+	Overflow-y: hidden;
+	padding-top: 30px;
+	padding-left: 60px;
+	font-size: 30px;
+	font-color: "white";
+	font-weight: bold;
+	font-family: Sans-serif;
+}
 
