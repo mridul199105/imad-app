@@ -23,7 +23,7 @@ app.get('/archive-1', function (req, res) {
 });
 
 app.get('/archive-2', function (req, res) {
-  res.send('Something will be here.');
+  res.send("Something will be here.");
 });
 
 app.get('/ui/style.css', function (req, res) {
