@@ -5,6 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+
 function opennav() {
     document.getElementById("mysidenav").style.width = "250px";
     document.getElementById("main").style.marginleft = "250px";
@@ -12,6 +14,10 @@ function opennav() {
 function closenav() {
     document.getElementById("mysidenav").style.width = "0";
     document.getElementById("main").style.marginleft = "0";
+}
+
+function navappear() {
+    var navi = 
 }
 
 app.get('/', function (req, res) {
