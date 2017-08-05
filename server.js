@@ -102,7 +102,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:archiveName', function (req, res) {
-  res.send(createtemplate(datastuff[archiveone]));
+  res.send(createtemplate(datastuff.archiveone));
 });
 
 app.get('/ui/style.css', function (req, res) {
