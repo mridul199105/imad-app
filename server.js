@@ -103,7 +103,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:archiveme', function (req, res) {
+app.get('/:archiveone', function (req, res) {
   res.send(createtemplate(datastuff[req.params]));
 });
 
