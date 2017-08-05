@@ -44,12 +44,12 @@ body {
 	height: 215;
 	position: fixed;
 	z-index:1;
-	blackground-color: #120A8F;
+	background-color: #120A8F;
 	Overflow-y: hidden;
 	padding-top: 27px;
 	padding-left: 60px;
 	font-size: 80px;
-	font-color: #000;
+	color: #000;
 	font-weight: bold;
 	font-family: Sans-serif;
 }
