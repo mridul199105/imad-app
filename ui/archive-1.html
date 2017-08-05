@@ -5,6 +5,16 @@
   <link href="/ui/style.css" rel="stylesheet" />
 </head>
 <body>
+    <script>
+        function opennav() {
+            document.getElementById("mysidenav").style.width = "250px";
+            document.getElementById("main").style.marginleft = "250px";
+        }
+        function closenav() {
+            document.getElementById("mysidenav").style.width = "0";
+            document.getElementById("main").style.marginleft = "0";
+        }
+    </script>
   <div id="logo" class="toplogo">
     <img src="/ui/madi.png" align="center" width="150px" height="150px" />
   </div>
