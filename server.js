@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var datastuff = {
-    'archiveone': {
+    archiveone: {
         title: 'GUI Page 1',
         date: '05.08.2017',
         content: `
@@ -16,7 +16,7 @@ var datastuff = {
                 <li> Contains Second Header</li>
             </ol>`
     },
-    'archivetwo': {
+    archivetwo: {
         title: 'GUI Page 2',
         date: '10.08.2017',
         content: `
@@ -24,8 +24,10 @@ var datastuff = {
             <ol>
                 <li> Contains something something</li>
                 <li> Contains no Header</li>
-            </ol>`},
-    'archivethree': {
+            </ol>`
+        
+    },
+    archivethree: {
         title: 'GUI Page 3',
         date: '15.08.2017',
         content: `
@@ -35,7 +37,7 @@ var datastuff = {
                 <li> Forget it</li>
             </ol>`
     }
-    };
+};
 
 
 
@@ -72,10 +74,10 @@ function createtemplate(data) {
             <a href="javascript:void(0);" class="closebtn" onclick="closenav()">&times;</a>
             <img src="/ui/madi.png" align="center" width="150px" height="150px" />
             <a href="/">Home</a>
-            <a href="/archive1">Page 1</a>
-            <a href="/archive2">Page 2</a>
-            <a href="/archive3">Page 3</a>
-            <a href="/archive4">Page 4</a>
+            <a href="/archiveone">Page 1</a>
+            <a href="/archivetwo">Page 2</a>
+            <a href="/archivethree">Page 3</a>
+            <a href="/archivefour">Page 4</a>
         </div>
       
      
