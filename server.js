@@ -34,8 +34,7 @@ var datastuff = {
                 <li> No more ideas</li>
                 <li> Forget it</li>
             </ol>`
-    },
-        
+    }
     };
 
 
