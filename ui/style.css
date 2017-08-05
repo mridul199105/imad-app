@@ -40,8 +40,8 @@ body {
 .banner {
 	top: 0;
 	left: 450;
-	width: 1100;
-	height: 150;
+	width: 900;
+	height: 100;
 	position: fixed;
 	z-index:1;
 	background-color: #120A8F;
