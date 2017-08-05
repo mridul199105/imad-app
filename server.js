@@ -31,8 +31,8 @@ var datastuff = {
         content: `
             <h2>This matter will be third article.</h2>
             <ol>
-                <li> Contains first header</li>
-                <li> Contains Second Header</li>
+                <li> No more ideas</li>
+                <li> Forget it</li>
             </ol>`
     },
         
@@ -102,16 +102,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/archive-1', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'archive-1.html'));
-});
-
-app.get('/archive-2', function (req, res) {
-  res.send('Something will be here.');
-});
-
-app.get('/archive-3', function (req, res) {
-    res.send('Something will be here too.');
+app.get('/:pathn', function (req, res) {
+  res.send(createtemplate(datastuff[pathn]));
 });
 
 app.get('/ui/style.css', function (req, res) {
