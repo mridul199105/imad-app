@@ -26,6 +26,10 @@ app.get('/archive-2', function (req, res) {
   res.send('Something will be here.');
 });
 
+app.get('/archive-3', function (req, res) {
+    res.send('Something will be here too.');
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
