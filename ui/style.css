@@ -26,7 +26,7 @@ body {
 	font-size:10px;
 }
 .italic {
-	font-weight: italic;
+	font-weight: lighter;
 }
 .toplogo {
 	top: 0;
@@ -71,5 +71,38 @@ body {
 .bottomnav {
     bottom: 0;
     left: 300;
-    
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 300;
+    background-color: Black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition:0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size:25px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
 }
