@@ -6,22 +6,38 @@ var app = express();
 app.use(morgan('combined'));
 
 var datastuff = {
-    'archive-1': {},
-    'archive-2': {},
-    'archive-3': {},
+    'archive-1': {
+        title: 'GUI Page 1',
+        date: '05.08.2017',
+        content: `
+            <h2>This matter will be first article.</h2>
+            <ol>
+                <li> Contains first header</li>
+                <li> Contains Second Header</li>
+            </ol>`
+    },
+    'archive-2': {
+        title: 'GUI Page 2',
+        date: '10.08.2017',
+        content: `
+            <h2>This matter will be second article.</h2>
+            <ol>
+                <li> Contains something something</li>
+                <li> Contains no Header</li>
+            </ol>`},
+    'archive-3': {
+        title: 'GUI Page 3',
+        date: '15.08.2017',
+        content: `
+            <h2>This matter will be third article.</h2>
+            <ol>
+                <li> Contains first header</li>
+                <li> Contains Second Header</li>
+            </ol>`
+    },
         
     };
 
-
-
-function opennav() {
-    document.getElementById("mysidenav").style.width = "250px";
-    document.getElementById("main").style.marginleft = "250px";
-}
-function closenav() {
-    document.getElementById("mysidenav").style.width = "0";
-    document.getElementById("main").style.marginleft = "0";
-}
 
 
 function createtemplate(data) {
@@ -70,11 +86,6 @@ function createtemplate(data) {
           <hr>
           <left>
               ${content}
-              <h2>This matter will be first article.</h2>
-              <ol>
-                  <li> Contains first header</li>
-                  <li> Contains Second Header</li>
-              </ol>
           </left>
           <hr>
       </div>
