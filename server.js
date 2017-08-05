@@ -104,7 +104,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:archiveme', function (req, res) {
-    res.send(req.params);
+  res.send(createtemplate(datastuff.archiveme));
 });
 
 app.get('/ui/style.css', function (req, res) {
