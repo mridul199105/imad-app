@@ -60,7 +60,7 @@ function createtemplate(data) {
         WELCOME TO GUI GUI <br>
       </div>
       <div id="mysidenav" class="sidenav">
-            <a href="/ui/main.js" class="closebtn" onclick="closenav()">&times;</a>
+            <span href="/ui/main.js" class="closebtn" onclick="closenav()">&times;</span>
             <img src="/ui/madi.png" align="center" width="150px" height="150px" />
             <a href="/">Home</a>
             <a href="/archiveone">Page 1</a>
