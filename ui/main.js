@@ -33,7 +33,7 @@ function addMe() {
 }
 
 var vana = document.getElementById("movimg");
-vana.style.marginLeft = 0;
+vana.style.marginLeft = "0px";
 var mina;
 
 function inc() {
@@ -46,7 +46,7 @@ function moveIt() {
 }
 
 vana.onclick = function() {
-    vana.style.marginLeft = 0;
+    vana.style.marginLeft = "0px";
 };
 
 moveIt();
