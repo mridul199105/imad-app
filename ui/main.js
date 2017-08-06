@@ -31,3 +31,15 @@ function addMe() {
             }
             i++;
 }
+
+var vana = document.getElementById("movimg");
+vana.style.left = 420;
+var interv
+
+function moveIt() {
+    interv = setinterval(vana.style.left +=10, 100);
+}
+
+function resetme() {
+    vana.style.left = 420;
+}
