@@ -18,7 +18,7 @@ var newele = document.getElementById("main");
 var oldtimer = newele.innerHTML;
 
 function addMe(onc) {
-          var date = onc.date;
+          var date = onc;
           newele.innerHTML = `
           <div align="right">${date}</div> 
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
