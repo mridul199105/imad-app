@@ -103,7 +103,7 @@ body {
 .cenimg {
     left: 675px;
     top: 400px;
-    
+    position fixed;
 }
 #main {
     transition: margin-left 0.5s;
