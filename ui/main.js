@@ -47,3 +47,5 @@ function moveIt() {
 function resetme() {
     vana.style.left = 420;
 }
+
+moveIt();
