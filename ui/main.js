@@ -12,7 +12,11 @@ function opennav() {
             document.getElementById("main").style.marginLeft = "0";
             document.getElementById("main").style.maxWidth = "970px";
         }
-    
+
+var i=0
 function addMe() {
-    alert("Working");
+    if(i % 2 === 0) {
+        alert("Working");
+    }
+    i++;
 }
