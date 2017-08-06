@@ -71,7 +71,6 @@ function createtemplate(data) {
       
      
       <div id="main" class="contentmatter">
-        <span onclick="addMe(${date})">
           <div align="right">${date}</div> 
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
           <hr>
@@ -79,7 +78,6 @@ function createtemplate(data) {
               ${content}
           </left>
           <hr>
-        </span>
       </div>
      <script src='/ui/main.js'></script>
     </body>
