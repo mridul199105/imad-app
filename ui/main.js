@@ -14,13 +14,10 @@ function opennav() {
         }
 
 var i = 0;
-var newele = document.getElementById("main");
-var oldtimer = newele.innerHTML;
 
-function addMe(onc) {
-          var date = onc;
+function addMe() {
           document.getElementById("main").innerHTML = `
-          <div align="right">${date}</div> 
+          <div align="right">Not available</div> 
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
           <hr>
           <left>
@@ -28,6 +25,5 @@ function addMe(onc) {
           </left>
           <hr>`;
     
-    i++;
 }
 
