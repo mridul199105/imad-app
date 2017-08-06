@@ -33,19 +33,19 @@ function addMe() {
 }
 
 var vana = document.getElementById("movimg");
-vana.style.left = 420;
+vana.style.marginLeft = 0;
 var interv
 
 function inc() {
-    vana.style.left += 3;
+    vana.style.marginLeft += 3;
 }
 
 function moveIt() {
-    interv = setinterval(inc(), 1000);
+    interv = setinterval(inc(), 100);
 }
 
 function resetme() {
-    vana.style.left = 420;
+    vana.style.marginLleft = 0;
 }
 
 moveIt();
