@@ -45,7 +45,7 @@ function moveIt() {
 }
 
 function resetme() {
-    vana.style.marginLleft = 0;
+    vana.style.marginLeft = 0;
 }
 
 moveIt();
