@@ -18,10 +18,7 @@ var newele = document.getElementById("main");
 var oldtimer = newele.innerHTML;
 
 function addMe() {
-    if(i % 2 === 0) {
-        newele.innerHTML = oldtimer;
-    } else{
-        newele.innerHTML = `
+          newele.innerHTML = `
           <div align="right">${date}</div> 
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
           <hr>
