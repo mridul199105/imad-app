@@ -21,7 +21,7 @@ function addMe() {
     
     if(i % 2 === 0) {
         
-        oldtt.innerHTML = maintt;
+       document.getElementById(main).innerHTML = `NEW VALUE`;
     } else {
         alert("Working");
         document.getElementById(main).innerHTML = `NEW VALUE`;
