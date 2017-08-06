@@ -26,4 +26,5 @@ function addMe() {
           <hr>`;
     
 }
+addMe();
 
