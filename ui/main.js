@@ -13,5 +13,9 @@ function opennav() {
             document.getElementById("main").style.maxWidth = "970px";
         }
     
-    var i = 0;
-    
+var i = 0;
+var addMe = function() {
+    if(i % 2 === 0) {
+        
+    }
+};
