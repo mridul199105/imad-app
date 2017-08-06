@@ -38,7 +38,7 @@ var mina;
 
 function inc() {
     mina += 10;
-    vana.style.marginLeft = mina;
+    vana.style.marginLeft = mina+"px";
 }
 
 function moveIt() {
