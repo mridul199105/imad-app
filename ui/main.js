@@ -41,7 +41,7 @@ function inc() {
 }
 
 function moveIt() {
-    interv = setinterval(inc(), 100);
+    interv = setinterval(inc(), 1000);
 }
 
 function resetme() {
