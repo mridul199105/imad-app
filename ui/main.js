@@ -18,9 +18,9 @@ var maintt = document.getElementById(main).innerHTML;
 var oldtt = document.getElementById(main);
 var i = 0;
 function addMe() {
-     alert("Working");
+    
     if(i % 2 === 0) {
-        
+         alert("Working");
         oldtt.innerHTML = maintt;
     } else {
        
