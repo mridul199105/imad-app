@@ -20,10 +20,10 @@ var i = 0;
 function addMe() {
     
     if(i % 2 === 0) {
-         alert("Working");
+        
         oldtt.innerHTML = maintt;
     } else {
-       
+        alert("Working");
         oldtt.innerHTML = `
          <div align="right">The date has been removed</div> 
          <hr>
