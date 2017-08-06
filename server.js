@@ -82,9 +82,6 @@ function createtemplate(data) {
         </span>
       </div>
      <script src='/ui/main.js' type='text/javascript'></script>
-     <script>
-        document.getElementById(main) = "NEW VALUE";
-     </script>
     </body>
     </html>`;
     return temppg;
