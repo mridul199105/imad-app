@@ -60,7 +60,7 @@ function createtemplate(data) {
         WELCOME TO GUI GUI <br>
       </div>
       <div id="mysidenav" class="sidenav">
-            <a href="javascript:void(0);" class="closebtn" onclick="closenav()">&times;</a>
+            <a href="/ui/main.js" class="closebtn" onclick="closenav()">&times;</a>
             <img src="/ui/madi.png" align="center" width="150px" height="150px" />
             <a href="/">Home</a>
             <a href="/archiveone">Page 1</a>
@@ -72,14 +72,14 @@ function createtemplate(data) {
      
       <div id="main" class="contentmatter">
           <div align="right">${date}</div> 
-          <a href="javascript:void(0);" onclick="opennav()">Navigation</a>
+          <a href="/ui/main.js" onclick="opennav()">Navigation</a>
           <hr>
           <left>
               ${content}
           </left>
           <hr>
       </div>
-     <script src='/main.js' type='text/javascript'></script>
+     <script src='/ui/main.js' type='text/javascript'></script>
     </body>
     </html>`;
     return temppg;
@@ -105,7 +105,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/main.js', function (req, res) {
+app.get('/ui/main.js', function (req, res) {
    res.sendfile(path.join(__dirname, 'ui', 'main.js')); 
 });
 
