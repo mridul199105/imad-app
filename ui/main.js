@@ -31,5 +31,3 @@ function addMe() {
             )
             i++;
 }
-
-addMe();
