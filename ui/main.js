@@ -24,15 +24,7 @@ function addMe() {
         oldtt.innerHTML = maintt;
     } else {
         alert("Working");
-        document.getElementById(main).innerHTML = `
-         <div align="right">The date has been removed</div> 
-         <hr>
-          <span href="/ui/main.js" onclick="opennav()">Navigation</span>
-          <hr>
-          <left>
-              The Content has been removed
-          </left>
-          <hr>`;
+        document.getElementById(main).innerHTML = `NEW VALUE`;
     }
     i++;
         
