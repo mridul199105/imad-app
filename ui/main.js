@@ -34,7 +34,7 @@ function addMe() {
 
 var vana = document.getElementById("movimg");
 vana.style.marginLeft = 0;
-var interv
+var interv;
 
 function inc() {
     vana.style.marginLeft += 3;
@@ -46,6 +46,6 @@ function moveIt() {
 
 vana.onclick = function() {
     vana.style.marginLeft = 0;
-}
+};
 
 moveIt();
