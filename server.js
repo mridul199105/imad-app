@@ -53,17 +53,6 @@ function createtemplate(data) {
       <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body>
-      <script>
-        function opennav() {
-            document.getElementById("mysidenav").style.width = "250px";
-            document.getElementById("main").style.marginleft = "250px";
-        }
-        function closenav() {
-            document.getElementById("mysidenav").style.width = "0";
-            document.getElementById("main").style.marginleft = "0";
-        }
-    
-      </script>
       <div id="logo" class="toplogo">
         <img src="/ui/madi.png" align="center" width="150px" height="150px" />
       </div>
@@ -90,7 +79,7 @@ function createtemplate(data) {
           </left>
           <hr>
       </div>
-     
+     <script src='/main.js' type='text/javascript'></script>
     </body>
     </html>`;
     return temppg;
@@ -114,6 +103,10 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
+
+app.get('/main.js', function (req, res) {
+   res.sendfile(path.join(__dirname, 'ui', 'main.js')); 
 });
 
 
