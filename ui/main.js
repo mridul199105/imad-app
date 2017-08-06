@@ -34,14 +34,15 @@ function addMe() {
 
 var vana = document.getElementById("movimg");
 vana.style.marginLeft = 0;
-var interv;
+var mina;
 
 function inc() {
-    vana.style.marginLeft += 3;
+    mina += 10;
+    vana.style.marginLeft = mina;
 }
 
 function moveIt() {
-    interv = setInterval(inc(), 100);
+    var interv = setInterval(inc, 100);
 }
 
 vana.onclick = function() {
