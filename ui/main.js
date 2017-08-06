@@ -14,9 +14,9 @@ function opennav() {
         }
 
 var i = 0;
-
+var newele = document.getElementById("main");
 function addMe() {
-          document.getElementById("main").innerHTML = `
+          newele.innerHTML = `
           <div align="right">Not available</div> 
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
           <hr>
@@ -27,3 +27,4 @@ function addMe() {
     
 }
 
+addMe();
