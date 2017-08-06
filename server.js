@@ -72,7 +72,7 @@ function createtemplate(data) {
      
       <div id="main" class="contentmatter">
           <div align="right">${date}</div> 
-          <a href="/ui/main.js" onclick="opennav()">Navigation</a>
+          <span href="/ui/main.js" onclick="opennav()">Navigation</span>
           <hr>
           <left>
               ${content}
