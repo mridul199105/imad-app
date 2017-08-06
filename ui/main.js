@@ -30,3 +30,6 @@ function addMe(onc) {
     
     i++;
 }
+
+addMe(onc);
+
