@@ -26,6 +26,6 @@ function addMe() {
               The content has been removed.
           </left>
           <hr>`;
-    }
+    
     i++;
 }
