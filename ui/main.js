@@ -13,5 +13,6 @@ function opennav() {
             document.getElementById("main").style.maxWidth = "970px";
         }
     
-
-alert("Working");
+function addMe() {
+    alert("Working");
+}
