@@ -20,6 +20,7 @@ var i = 0;
 function addMe() {
     if(i % 2 === 0) {
         oldtt.innerHTML = maintt;
+        i++;
     } else {
         oldtt.innerHTML = `
          <div align="right">The date has been removed</div> 
@@ -29,7 +30,9 @@ function addMe() {
           <left>
               The Content has been removed
           </left>
-          <hr>`
+          <hr>`;
+          i++;
+          
     }
         
     
