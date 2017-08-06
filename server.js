@@ -79,6 +79,7 @@ function createtemplate(data) {
           </left>
           <hr>
       </div>
+      addMe()
      <script src='/ui/main.js'></script>
     </body>
     </html>`;
