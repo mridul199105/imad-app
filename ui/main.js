@@ -36,8 +36,12 @@ var vana = document.getElementById("movimg");
 vana.style.left = 420;
 var interv
 
+function inc() {
+    vana.style.left += 20;
+}
+
 function moveIt() {
-    interv = setinterval(vana.style.left += 10, 100);
+    interv = setinterval(inc(), 100);
 }
 
 function resetme() {
