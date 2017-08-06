@@ -15,16 +15,21 @@ function opennav() {
 
 var i = 0;
 var newele = document.getElementById("main");
+var odim = newele.innerHTML;
 function addMe() {
-          newele.innerHTML = `
-          <div align="right">Not available</div> 
-          <span href="/ui/main.js" onclick="opennav()">Navigation</span>
-          <hr>
-          <left>
-              The content has been removed.
-          </left>
-          <hr>`;
-    
+            if(i % 2 === 0) {
+                newele.innerHTML = odim;
+            } else {
+                    newele.innerHTML = `
+                  <div align="right">Not available</div> 
+                  <span href="/ui/main.js" onclick="opennav()">Navigation</span>
+                  <hr>
+                  <left>
+                      The content has been removed.
+                  </left>
+              <hr>`;
+            )
+            i++;
 }
 
 addMe();
