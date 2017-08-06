@@ -34,11 +34,11 @@ function addMe() {
 
 var vana = document.getElementById("movimg");
 vana.style.marginLeft = "0px";
-var mina;
+var mina = 0;
 
 function inc() {
     mina += 10;
-    vana.style.marginLeft = mina+"px";
+    vana.style.marginLeft = mina + "px";
 }
 
 function moveIt() {
