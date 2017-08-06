@@ -44,7 +44,7 @@ function moveIt() {
     interv = setinterval(inc(), 100);
 }
 
-function resetme() {
+vana.onclick = function() {
     vana.style.marginLeft = 0;
 }
 
