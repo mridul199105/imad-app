@@ -18,5 +18,6 @@ var maintt = document.getElementById(main).innerHTML;
 var oldtt = document.getElementById(main);
 var i = 0;
 function addMe() {
+    alert("working");
        document.getElementById(main).innerHTML = "NEW VALUE";
 }
