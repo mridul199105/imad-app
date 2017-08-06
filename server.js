@@ -81,7 +81,7 @@ function createtemplate(data) {
           <hr>
         </span>
       </div>
-     <script src='/ui/main.js' type='text/javascript'></script>
+     <script src='/ui/main.js'></script>
     </body>
     </html>`;
     return temppg;
