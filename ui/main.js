@@ -46,7 +46,7 @@ function moveIt() {
 }
 
 vana.onclick = function() {
-    vana.style.marginLeft = "0px";
+    mina = 0;
 };
 
 moveIt();
