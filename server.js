@@ -80,7 +80,7 @@ function createtemplate(data) {
           <hr>
       </div>
      <script src='/ui/main.js'>
-        addMe(${date};
+        addMe(${date});
     </script>
     </body>
     </html>`;
