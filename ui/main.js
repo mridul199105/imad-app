@@ -41,7 +41,7 @@ function inc() {
 }
 
 function moveIt() {
-    interv = setinterval(inc(), 100);
+    interv = setInterval(inc(), 100);
 }
 
 vana.onclick = function() {
