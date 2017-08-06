@@ -79,9 +79,7 @@ function createtemplate(data) {
           </left>
           <hr>
       </div>
-     <script src='/ui/main.js'>
-        addMe(${date});
-    </script>
+     <script src='/ui/main.js'></script>
     </body>
     </html>`;
     return temppg;
