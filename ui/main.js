@@ -17,6 +17,8 @@ var i = 0;
 function addMe() {
     if(i % 2 === 0) {
         alert("Working");
+    } else{
+        alert("perfect");
     }
     i++;
 }
