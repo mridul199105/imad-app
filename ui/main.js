@@ -14,5 +14,3 @@ function opennav() {
         }
     
 
-var maintt = document.getElementById(main);
-maintt.innerHTML = 'New Value';
