@@ -22,7 +22,6 @@ function addMe() {
     if(i % 2 === 0) {
         alert("Working");
         oldtt.innerHTML = maintt;
-        i++;
     } else {
         oldtt.innerHTML = `
          <div align="right">The date has been removed</div> 
@@ -33,9 +32,8 @@ function addMe() {
               The Content has been removed
           </left>
           <hr>`;
-          i++;
-          
     }
+    i++;
         
     
 }
