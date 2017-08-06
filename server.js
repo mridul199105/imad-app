@@ -83,8 +83,7 @@ function createtemplate(data) {
       </div>
      <script src='/ui/main.js' type='text/javascript'></script>
      <script>
-        var maintt = document.getElementById(main);
-        maintt.innerHTML = 'New Value';
+        document.getElementById(main).innerHTML = 'NEW VALUE';
      </script>
     </body>
     </html>`;
