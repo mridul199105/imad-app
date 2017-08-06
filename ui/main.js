@@ -9,3 +9,4 @@ function opennav() {
             document.getElementById("main").style.marginleft = "0";
         }
     
+    alert("who goes there...");
