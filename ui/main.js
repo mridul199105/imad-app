@@ -24,7 +24,7 @@ function addMe() {
         oldtt.innerHTML = maintt;
     } else {
         alert("Working");
-        oldtt.innerHTML = `
+        document.getElementById(main).innerHTML = `
          <div align="right">The date has been removed</div> 
          <hr>
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
