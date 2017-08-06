@@ -100,6 +100,11 @@ body {
     font-size:25px;
     margin-left: 50px;
 }
+.cenimg {
+    position: fixed;
+    left: 675px;
+    top: 500px;
+}
 #main {
     transition: margin-left 0.5s;
     padding: 20px;
