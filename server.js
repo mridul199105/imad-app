@@ -79,7 +79,7 @@ function createtemplate(data) {
           </left>
           <hr>
       </div>
-      <div id="movimg" class="cenimg" onclick="resetme()">
+      <div id="movimg" class="cenimg">
         <img src="/ui/madi.png">
       </div>
      <script src='/ui/main.js'></script>
