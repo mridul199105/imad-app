@@ -101,7 +101,7 @@ body {
     margin-left: 50px;
 }
 .cenimg {
-    position: fixed;
+    position: absolute;
     left: 675px;
     top: 500px;
 }
