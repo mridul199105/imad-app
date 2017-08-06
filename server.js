@@ -71,7 +71,7 @@ function createtemplate(data) {
       
      
       <div id="main" class="contentmatter">
-        <span onclick="addMe(datastuff[archiveme])">
+        <span onclick="addMe(${date})">
           <div align="right">${date}</div> 
           <span href="/ui/main.js" onclick="opennav()">Navigation</span>
           <hr>
