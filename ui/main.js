@@ -13,9 +13,24 @@ function opennav() {
             document.getElementById("main").style.maxWidth = "970px";
         }
     
+
+var maintt = document.getElementById(main).innerHTML;
+var oldtt = document.getElementById(main);
 var i = 0;
-var addMe = function() {
+function addMe() {
     if(i % 2 === 0) {
-        
+        oldtt.innerHTML = maintt;
+    } else {
+        oldtt.innerHTML = `
+         <div align="right">The date has been removed</div> 
+         <hr>
+          <span href="/ui/main.js" onclick="opennav()">Navigation</span>
+          <hr>
+          <left>
+              The Content has been removed
+          </left>
+          <hr>`
     }
-};
+        
+    
+}
