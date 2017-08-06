@@ -18,15 +18,5 @@ var maintt = document.getElementById(main).innerHTML;
 var oldtt = document.getElementById(main);
 var i = 0;
 function addMe() {
-    
-    if(i % 2 === 0) {
-        
-       document.getElementById(main).innerHTML = `NEW VALUE`;
-    } else {
-        alert("Working");
-        document.getElementById(main).innerHTML = `NEW VALUE`;
-    }
-    i++;
-        
-    
+       document.getElementById(main).innerHTML = "NEW VALUE";
 }
