@@ -37,7 +37,7 @@ vana.style.left = 420;
 var interv
 
 function inc() {
-    vana.style.left += 20;
+    vana.style.left += 3;
 }
 
 function moveIt() {
