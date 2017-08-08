@@ -101,7 +101,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 300;
+    left: 300px;
     background-color: Black;
     overflow-x: hidden;
     padding-top: 60px;
