@@ -4,6 +4,21 @@
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
     <body style="background-attachment: fixed; background-repeat: no-repeat;" background="http://www.planwallpaper.com/static/images/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg">
+        <script>
+            function opennav() {
+            document.getElementById("main").style.transition = "0.5s";
+            document.getElementById("mysidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("main").style.maxWidth = "720px";
+            }
+        
+            function closenav() {
+            document.getElementById("main").style.transition = "0.5s";
+            document.getElementById("mysidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("main").style.maxWidth = "970px";
+            }
+        </script>
         <div id="mysidenav" class="sidenav">
             <a><span href="/ui/main.js" class="closebtn" onclick="closenav()">&times;</span></a>
             <img src="/ui/madi.png" align="center" width="150px" height="150px" />
