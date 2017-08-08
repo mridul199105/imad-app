@@ -12,7 +12,7 @@ body {
     margin-left: -485px;
     width: 970px;
     min-height: 1080px;
-    position: absolute;
+    position: fixed;
     z-index: 15;
 }
 
