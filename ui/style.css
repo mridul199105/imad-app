@@ -21,7 +21,7 @@ body {
     margin-top: 0;
     margin-left: -485px;
     position: fixed;
-    width: 970;
+    min-width: 970;
     height: 75px;
     background-color: black;
 }
