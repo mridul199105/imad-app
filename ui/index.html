@@ -6,21 +6,21 @@
     <body style="background-attachment: fixed; background-repeat: no-repeat;" background="http://www.planwallpaper.com/static/images/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg">
         <script>
             function opennav() {
-            document.getElementById("main").style.transition = "0.5s";
+            document.getElementById("bg").style.transition = "0.5s";
             document.getElementById("mysidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-            document.getElementById("main").style.maxWidth = "720px";
+            document.getElementById("bg").style.marginLeft = "250px";
+            document.getElementById("bg").style.maxWidth = "720px";
             }
         
             function closenav() {
-            document.getElementById("main").style.transition = "0.5s";
+            document.getElementById("bg").style.transition = "0.5s";
             document.getElementById("mysidenav").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-            document.getElementById("main").style.maxWidth = "970px";
+            document.getElementById("bg").style.marginLeft = "0";
+            document.getElementById("bg").style.maxWidth = "970px";
             }
         </script>
         <div id="mysidenav" class="sidenav">
-            <a><span href="/ui/main.js" class="closebtn" onclick="closenav()">&times;</span></a>
+            <a><span class="closebtn" onclick="closenav()">&times;</span></a>
             <img src="/ui/madi.png" align="center" width="150px" height="150px" />
             <a href="/">Home</a>
             <a href="/archiveone">Page 1</a>
@@ -30,7 +30,7 @@
         </div>
         <div id="bg" class="main-bg">
             <div id="topbar" class="top-bar">
-               <span href="/ui/main.js" onclick="opennav()"><img src="https://cdn3.iconfinder.com/data/icons/tricon-circles/24/Circle-Bulleted-List-512.png" align="Left" width="75px" height="75px"></span> 
+               <span onclick="opennav()"><img src="https://cdn3.iconfinder.com/data/icons/tricon-circles/24/Circle-Bulleted-List-512.png" align="Left" width="75px" height="75px"></span> 
             </div>
             <div class="center">
                 <img src="/ui/madi.png" class="img-medium"/>
