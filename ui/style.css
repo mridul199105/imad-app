@@ -13,8 +13,19 @@ body {
     width: 970px;
     min-height: 1080px;
     position: absolute;
-    
 }
+
+.top-bar {
+    top:0;
+    left:50%;
+    margin-top: 0;
+    margin-left: -485px;
+    position: fixed;
+    width: 970;
+    height: 75px;
+    background-color: black;
+}
+
 
 .center {
     text-align: center;
