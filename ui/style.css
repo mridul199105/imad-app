@@ -17,11 +17,11 @@ body {
 
 .top-bar {
     top:0;
-    left:0;
+    left:50%;
     margin-top: 0;
-    margin-left: 300px;
+    margin-left: -485px;
     position: fixed;
-    min-width: 970;
+    min-width: 970px;
     height: 75px;
     background-color: black;
 }
