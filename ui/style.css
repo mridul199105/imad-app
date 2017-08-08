@@ -13,6 +13,7 @@ body {
     width: 970px;
     min-height: 1080px;
     position: absolute;
+    z-index: 15;
 }
 
 .top-bar {
@@ -24,6 +25,7 @@ body {
     min-width: 970px;
     height: 75px;
     background-color: black;
+    z-index: 14;
 }
 
 
