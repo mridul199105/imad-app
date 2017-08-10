@@ -14,8 +14,8 @@ function closenavind() {
             document.getElementById("bg").style.maxWidth = "970px";
 }
 
-var button = document.getElementById("buon");
-button.onClick = function() {
+var buon = document.getElementById("buon");
+buon.onClick = function() {
     alert("it works");
     var repl = new XMLHttpRequest();
     
