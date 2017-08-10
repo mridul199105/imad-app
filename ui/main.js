@@ -1,18 +1,32 @@
 console.log('Loaded!');
 
+function opennavind() {
+            document.getElementById("bg").style.transition = "0.5s";
+            document.getElementById("mysidenav").style.width = "250px";
+            document.getElementById("bg").style.marginLeft = "-235px";
+            document.getElementById("bg").style.maxWidth = "720px";
+}
+        
+function closenavind() {
+            document.getElementById("bg").style.transition = "0.5s";
+            document.getElementById("mysidenav").style.width = "0";
+            document.getElementById("bg").style.marginLeft = "-485px";
+            document.getElementById("bg").style.maxWidth = "970px";
+}
+
 function opennav() {
             document.getElementById("main").style.transition = "0.5s";
             document.getElementById("mysidenav").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
             document.getElementById("main").style.maxWidth = "720px";
-        }
+}
         
 function closenav() {
             document.getElementById("main").style.transition = "0.5s";
             document.getElementById("mysidenav").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
             document.getElementById("main").style.maxWidth = "970px";
-        }
+}
 
 var i = 0;
 var newele = document.getElementById("main");
