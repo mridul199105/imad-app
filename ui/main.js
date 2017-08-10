@@ -30,11 +30,11 @@ function closenav() {
 
 
 
-            var n = 0;
-            function asba() {
-                n = n + 1;
-                document.getElementById("cntMe").innerHTML = n.toString();
-            }
+var n = 0;
+function asba() {
+    n = n + 1;
+    document.getElementById("cntMe").innerHTML = n.toString();
+}
         
 
 
