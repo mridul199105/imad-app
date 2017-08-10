@@ -40,7 +40,7 @@ function asba() {
                 document.getElementById("cntMe").innerHTML = n.toString();
             }
         }
-    }
+    };
     request.open('GET', 'http://mridul199105.imad.hasura-app.io/counter', true);
     request.send(null);
 }
