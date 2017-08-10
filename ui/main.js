@@ -29,8 +29,8 @@ function closenav() {
 }
 
 
-
-function asba() {
+var button = document.getElementById("buon");
+button.onClick = function() {
     var repl = new XMLHttpRequest();
     
     request.onreadystatechange = function() {
@@ -44,7 +44,7 @@ function asba() {
     };
     request.open('GET', 'http://mridul199105.imad.hasura-app.io/counter', true);
     request.send(null);
-}
+};
         
 
 
