@@ -38,7 +38,7 @@ var listhu = document.getElementById("nelist");
 function submitname() {
     var namae = document.getElementById("name");
     var nameInput = namae.value;
-    namelist = ["NAME 1", "NAME 2", "NAME 3", "NAME 5"];
+    namelist.push(namae.value);
     for (i = 0; i < namelist.length; i++) {
         listname += "<li>" + namelist[i] + "</li>";
     }
