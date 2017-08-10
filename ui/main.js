@@ -33,9 +33,9 @@ var n = 0;
 var button = document.getElementById("button");
 
 button.onClick = function() {
-    var count = document.getElementById("countMe");
-    n++;
-    count.innerHTML = n.toString();
+    n = n + 1;
+    var cnt = document.getElementById("countMe");
+    cnt.innerHTML = n.toString();
 };
 
 
