@@ -32,13 +32,13 @@ function asba() {
 
 
 var namelist = [];
-var listname = "";
 var listhu = document.getElementById("nelist");
     
 function submitname() {
     var namae = document.getElementById("name");
     var nameInput = namae.value;
     namelist.push(namae.value);
+    var listname = "";
     for (i = 0; i < namelist.length; i++) {
         listname += "<li>" + namelist[i] + "</li>";
     }
