@@ -39,24 +39,7 @@ button.onClick = function() {
 };
 
 
-var i = 0;
-var newele = document.getElementById("main");
-var odim = newele.innerHTML;
-function addMe() {
-            if(i % 2 === 0) {
-                newele.innerHTML = odim;
-            } else {
-                    newele.innerHTML = `
-                  <div align="right">Not available</div> 
-                  <span href="/ui/main.js" onclick="opennav()">Navigation</span>
-                  <hr>
-                  <left>
-                      The content has been removed.
-                  </left>
-              <hr>`;
-            }
-            i++;
-}
+
 
 var vana = document.getElementById("movimg");
 vana.style.marginLeft = "0px";
