@@ -79,9 +79,9 @@ vana.onclick = function() {
 
 var n = 0;
 var but = document.getElementById("buttoni");
-var count = document.getElementById("countMe");
 
 but.onClick = function () {
+    var count = document.getElementById("countMe");
     n++;
     count.innerHTML = n.toString();
 };
