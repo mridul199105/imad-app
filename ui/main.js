@@ -28,6 +28,17 @@ function closenav() {
             document.getElementById("main").style.maxWidth = "970px";
 }
 
+
+var n = 0;
+var but = document.getElementById("buttoni");
+
+but.onClick = function () {
+    var count = document.getElementById("countMe");
+    n++;
+    count.innerHTML = n.toString();
+};
+
+
 var i = 0;
 var newele = document.getElementById("main");
 var odim = newele.innerHTML;
@@ -77,11 +88,3 @@ vana.onclick = function() {
 };
 
 
-var n = 0;
-var but = document.getElementById("buttoni");
-
-but.onClick = function () {
-    var count = document.getElementById("countMe");
-    n++;
-    count.innerHTML = n.toString();
-};
