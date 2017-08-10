@@ -33,17 +33,16 @@ function closenav() {
 function asba() {
     var repl = new XMLHttpRequest();
     
-    request.open('GET', 'http://mridul199105.imad.hasura-app.io/counter', true);
-    request.send(null);
-    
     request.onreadystatechange = function() {
-        if ( request.readyState === XMLHttpRequest.DONE ) {
+        if ( request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
                 var n = request.responseText;
                 document.getElementById("cntMe").innerHTML = n.toString();
             }
         }
     }
+    request.open('GET', 'http://mridul199105.imad.hasura-app.io/counter', true);
+    request.send(null);
 }
         
 
