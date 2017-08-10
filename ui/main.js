@@ -65,6 +65,7 @@ var j = 0;
 var interv;
 
 vana.onclick = function() {
+    clearInterval(interv);
     if( j % 2 === 0) {
         interv = setInterval(inc, 100);
     } else {
