@@ -15,7 +15,6 @@ function closenavind() {
 }
 
 function asba() {
-    alert("it works");
     var request = new XMLHttpRequest();
     
     request.onreadystatechange = function() {
