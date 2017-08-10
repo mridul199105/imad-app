@@ -89,15 +89,15 @@ function createtemplate(data) {
 }        
 
 
-var counter = 0;    
+var counter = 0;   
+
+app.get('/counter', function(req, res) {
+    counter++;
+    res.send(stringify(counter));
+})
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-});
-
-app.get('/:archiveme', function (req, res) {
-    var archiveme = req.params.archiveme;
-    res.send(createtemplate(datastuff[archiveme]));
 });
 
 app.get('/ui/style.css', function (req, res) {
@@ -112,10 +112,11 @@ app.get('/ui/main.js', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'main.js')); 
 });
 
-app.get('/counter', function(req, res) {
-    counter++;
-    res.send(stringify(counter));
-})
+app.get('/:archiveme', function (req, res) {
+    var archiveme = req.params.archiveme;
+    res.send(createtemplate(datastuff[archiveme]));
+});
+
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
 
