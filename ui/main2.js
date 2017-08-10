@@ -31,16 +31,26 @@ function asba() {
 }
 
 
-var namelist = [];
+
 var listhu = document.getElementById("nelist");
-    
+
 function submitname() {
-    var namae = document.getElementById("name");
-    var nameInput = namae.value;
-    namelist.push(namae.value);
-    var listname = "";
-    for (i = 0; i < namelist.length; i++) {
-        listname += "<li>" + namelist[i] + "</li>";
-    }
-     listhu.innerHTML = listname;
+    var request = new XMLHttpRequest();
+    var nami = document.getElementById("name");
+    var nana = nami.value;
+    request.onreadystatechange = function() {
+        if ( request.readyState === XMLHttpRequest.DONE) {
+            if (request.status === 200) {
+                var n = request.responseText;
+                var nameInput = JSON.parse(n);
+                var listname = "";
+                for (i = 0; i < nameInput.length; i++) {
+                    listname += "<li>" + nameInput[i] + "</li>";
+                }
+                 listhu.innerHTML = listname;
+            }
+        }
+    };
+    request.open('GET', 'http://mridul199105.imad.hasura-app.io/submitme?name=' + nana , true);
+    request.send(null);
 }
