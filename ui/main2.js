@@ -33,7 +33,7 @@ function asba() {
 
 var namelist = [];
 var listname = "";
-var listn = document.getElementById(listn);
+var listhu = document.getElementById(nelist);
     
 function submitname() {
     var namae = document.getElementById("name");
@@ -42,5 +42,5 @@ function submitname() {
     for (i = 0; i < namelist.length; i++) {
         listname += "<li>" + namelist[i] + "</li>";
     }
-     listn.innerHTML = listname;
+     listhu.innerHTML = listname;
 }
