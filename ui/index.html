@@ -6,10 +6,10 @@
     <body style="background-attachment: fixed; background-repeat: no-repeat;" background="http://www.planwallpaper.com/static/images/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg">
         <script>
             var n = 0;
-            document.getElementById("button").onClick = function() {
+            function asba() {
                 n = n + 1;
-                document.getElementById("countMe").innerHTML = n.toString();
-            };
+                document.getElementById("cntMe").innerHTML = n.toString();
+            }
         </script>
         
         <div id="mysidenav" class="sidenav">
@@ -35,8 +35,8 @@
                 <h4>Profession: </h4>Graphic Designer
                 <hr/>
                 <div id="footer" class="center">
-                    <button id="button">Click here</button><br>
-                    The above button has been clicked <span id="countMe">0</span>
+                    <button id="buon" onClick="asba()">Click here</button><br>
+                    The above button has been clicked <span id="cntMe">0</span>
                 </div>
             </div>
         </div>
