@@ -137,6 +137,11 @@ body {
     width: 900px;
     
 }
+.list {
+    text-align: center;
+    padding-left: 30px;
+    position: fixed;
+}
 #main {
     transition: margin-left 0.5s;
     padding: 20px;
