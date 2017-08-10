@@ -14,8 +14,7 @@ function closenavind() {
             document.getElementById("bg").style.maxWidth = "970px";
 }
 
-var buon = document.getElementById("buon");
-buon.onClick = function() {
+function asba() {
     alert("it works");
     var request = new XMLHttpRequest();
     
@@ -30,4 +29,4 @@ buon.onClick = function() {
     };
     request.open('GET', 'http://mridul199105.imad.hasura-app.io/counter', true);
     request.send(null);
-};
+}
