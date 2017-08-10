@@ -95,7 +95,14 @@ var counter = 0;
 app.get('/counter', function(req, res) {
     counter++;
     res.send(counter.toString());
-})
+});
+
+var arname = [];
+app.get('/submitme', function(req, res) {
+   var naman = req.query.name;
+   arname.push(naman);
+   res.send(JSON.stringify(arname));
+});
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
