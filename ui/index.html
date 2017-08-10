@@ -6,12 +6,9 @@
     <body style="background-attachment: fixed; background-repeat: no-repeat;" background="http://www.planwallpaper.com/static/images/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg">
         <script>
             var n = 0;
-            var button = document.getElementById("button");
-            
-            button.onClick = function() {
+            document.getElementById("button").onClick = function() {
                 n = n + 1;
-                var cnt = document.getElementById("countMe");
-                cnt.innerHTML = n.toString();
+                document.getElementById("countMe").innerHTML = n.toString();
             };
         </script>
         
