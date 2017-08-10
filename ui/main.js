@@ -29,17 +29,27 @@ function closenav() {
 }
 
 
-var n = 0;
-var button = document.getElementById("button");
-
-button.onClick = function() {
-    n = n + 1;
-    var cnt = document.getElementById("countMe");
-    cnt.innerHTML = n.toString();
-};
 
 
 
+var i = 0;
+var newele = document.getElementById("main");
+var odim = newele.innerHTML;
+function addMe() {
+            if(i % 2 === 0) {
+                newele.innerHTML = odim;
+            } else {
+                    newele.innerHTML = `
+                  <div align="right">Not available</div> 
+                  <span href="/ui/main.js" onclick="opennav()">Navigation</span>
+                  <hr>
+                  <left>
+                      The content has been removed.
+                  </left>
+              <hr>`;
+            }
+            i++;
+}
 
 var vana = document.getElementById("movimg");
 vana.style.marginLeft = "0px";
