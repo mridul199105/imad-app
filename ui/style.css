@@ -132,8 +132,8 @@ body {
 }
 .index-matter {
     text-align: center;
-    top:500px;
-    witdth:900px;
+    padding-top: 200px;
+    witdth: 900px;
     
 }
 #main {
