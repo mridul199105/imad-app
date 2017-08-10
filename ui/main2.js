@@ -29,3 +29,17 @@ function asba() {
     request.open('GET', 'http://mridul199105.imad.hasura-app.io/counter', true);
     request.send(null);
 }
+
+
+var namelist = [];
+var listname = "";
+    
+function submitname() {
+    var namae = document.getElementById("name");
+    var nameInput = namae.value;
+    namelist.push(nameInput);
+    for (l = 0; l < namelist.length; l++) {
+        listname += "<li>" + namelist[l] + "</li>";
+    }
+    document.getElementById(listn).innerHTML = listname;
+}
