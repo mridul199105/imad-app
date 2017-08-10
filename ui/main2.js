@@ -17,7 +17,7 @@ function closenavind() {
 var buon = document.getElementById("buon");
 buon.onClick = function() {
     alert("it works");
-    var repl = new XMLHttpRequest();
+    var request = new XMLHttpRequest();
     
     request.onreadystatechange = function() {
         if ( request.readyState === XMLHttpRequest.DONE) {
