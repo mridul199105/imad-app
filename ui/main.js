@@ -84,4 +84,4 @@ var count = document.getElementById(count);
 but.onClick = function () {
     n++;
     count.innerHTML = n.toString();
-}
+};
