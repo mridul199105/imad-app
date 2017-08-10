@@ -31,6 +31,7 @@ function closenav() {
 
 var button = document.getElementById("buon");
 button.onClick = function() {
+    alert("it works");
     var repl = new XMLHttpRequest();
     
     request.onreadystatechange = function() {
