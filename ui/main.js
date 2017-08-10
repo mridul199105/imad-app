@@ -56,12 +56,19 @@ function inc() {
     vana.style.marginLeft = mina + "px";
 }
 
-function moveIt() {
-    var interv = setInterval(inc, 100);
+function dec() {
+    mina -= 10;
+    vana.style.marginLeft = mina + "px";
 }
 
-vana.onclick = function() {
-    mina = 0;
-};
+var j = 0;
+var interv;
 
-moveIt();
+vana.onclick = function() {
+    if( j % 2 === 0) {
+        interv = setInterval(inc, 100);
+    } else {
+        interv = setInterval(dec, 100);
+    }
+    j++;
+};
