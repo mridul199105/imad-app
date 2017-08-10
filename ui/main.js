@@ -32,7 +32,7 @@ function closenav() {
 var n = 0;
 var but = document.getElementById("buttoni");
 
-but.onClick = function () {
+but.onClick = function() {
     var count = document.getElementById("countMe");
     n++;
     count.innerHTML = n.toString();
