@@ -37,7 +37,8 @@ function asba() {
         if ( request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
                 var n = request.responseText;
-                document.getElementById("cntMe").innerHTML = n.toString();
+                var cont = document.getElementById("cntMe");
+                cont.innerHTML = n.toString();
             }
         }
     };
