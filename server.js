@@ -67,6 +67,7 @@ function createtemplate(data) {
             <a href="/archivetwo">Page 2</a>
             <a href="/archivethree">Page 3</a>
             <a href="/archivefour">Page 4</a>
+            <a href="/counter">Counter</a>
         </div>
       
      
