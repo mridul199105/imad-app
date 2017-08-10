@@ -99,7 +99,6 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 300px;
     background-color: Black;
@@ -130,6 +129,12 @@ body {
     left: 675px;
     top: 400px;
     position: fixed;
+}
+.index-matter {
+    text-align: center;
+    top:200px;
+    witdth:900px;
+    
 }
 #main {
     transition: margin-left 0.5s;
