@@ -39,8 +39,8 @@ function submitname() {
     var namae = document.getElementById("name");
     var nameInput = namae.value;
     namelist = ["NAME 1", "NAME 2", "NAME 3", "NAME 5"];
-    for (l = 0; l < namelist.length; l++) {
-        listname += "<li>" + namelist[l] + "</li>";
+    for (i = 0; i < namelist.length; i++) {
+        listname += "<li>" + namelist[i] + "</li>";
     }
      listn.innerHTML = listname;
 }
