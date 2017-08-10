@@ -78,8 +78,8 @@ vana.onclick = function() {
 
 
 var n = 0;
-var but = document.getElementById(button);
-var count = document.getElementById(count);
+var but = document.getElementById("buttoni");
+var count = document.getElementById("countMe");
 
 but.onClick = function () {
     n++;
