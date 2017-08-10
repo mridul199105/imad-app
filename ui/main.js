@@ -30,9 +30,9 @@ function closenav() {
 
 
 var n = 0;
-var but = document.getElementById("buttoni");
+var button = document.getElementById("button");
 
-but.onClick = function() {
+button.onClick = function() {
     var count = document.getElementById("countMe");
     n++;
     count.innerHTML = n.toString();
