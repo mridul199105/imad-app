@@ -75,3 +75,13 @@ vana.onclick = function() {
     }
     j++;
 };
+
+
+var n = 0;
+var but = document.getElementById(button);
+var count = document.getElementById(count);
+
+but.onClick = function () {
+    n++;
+    count.innerHTML = n.toString();
+}
